@@ -1,5 +1,4 @@
 # ReactRotate360
-<<<<<<< HEAD
 
 __COMPONENT DESCRIPTION GOES HERE__
 
@@ -52,6 +51,3 @@ __ADDITIONAL USAGE NOTES__
 __PUT LICENSE HERE__
 
 Copyright (c) 2015 Cezar Luiz.
-
-=======
->>>>>>> 3b222f06b51f73f09e39638eb9a94e714e6c5408
