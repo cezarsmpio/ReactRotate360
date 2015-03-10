@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+	<title>ReactRotate360</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<div class="container">
+		<h1>ReactRotate360</h1>
+		<h2><a href="http://CezarLuiz0.github.io/ReactRotate360/">View project on GitHub</a></h2>
+		<!-- the example app is rendered into this div -->
+		<div id="app"></div>
+		<div class="hint">
+			<!-- put any hints about your component example here -->
+			<h1>Video</h1>
+	    <div id="video"></div>
+
+	    <pre>
+&lt;script&gt;
+	// Render videos
+	var sources = [
+		&#039;video/video.mp4&#039;,
+		&#039;video/video.oggtheora.ogv&#039;,
+		&#039;video/video.webmhd.webm&#039;
+	];
+
+	React.render(&lt;Rotate src={sources} /&gt;, document.querySelector(&#039;#video&#039;));
+&lt;/script&gt;
+	    </pre>
+
+	    <h1>Images</h1>
+	    <div id="images"></div>
+
+	    <pre>
+&lt;script&gt;
+	// Render images
+	React.render(&lt;Rotate type=&quot;image&quot; path=&quot;examples/images&quot; ext=&quot;png&quot; total=&quot;43&quot; /&gt;, document.querySelector(&#039;#images&#039;));
+&lt;/script&gt;
+	    </pre>
+		</div>
+		<div class="footer">
+			Copyright &copy; 2015 Cezar Luiz.
+		</div>
+	</div>
+	<script src="common.js"></script>
+	<script src="bundle.js"></script>
+	<script src="app.js"></script>
+</body>
