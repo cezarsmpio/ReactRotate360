@@ -2,7 +2,7 @@
 
 ReactRotate360 is a plugin to create 360 degree showcases. Inspired on Apple iPhone 360 showcase.
 
-Made with React.
+Made with React and HTML5.
 
 Works with videos or images.
 
@@ -26,6 +26,8 @@ Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 ## Usage
 
+The plugin uses `input[type=range]` for the slide. You can check the (support here)[http://caniuse.com/#feat=input-range].
+
 #### Videos
 
 You can use this plugin with videos (mp4, ogg or webm).
@@ -45,6 +47,15 @@ React.render(<Rotate src={sources} />, document.querySelector('#video'));
 ```
 // Render images
 React.render(<Rotate type="image" path="examples/images" ext="png" total="43" />, document.querySelector('#images'));
+```
+
+#### CSS Classes
+```
+.rotate-box { }
+.rotate-video { }
+.rotate-image { }
+.rotate-range { } /* For input[type=range] */
+.rotate-range::-webkit-slider-thumb { }
 ```
 
 ## Documentation
