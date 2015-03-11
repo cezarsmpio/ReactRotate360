@@ -26,7 +26,7 @@ Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 ## Usage
 
-The plugin uses `input[type=range]` for the slide. You can check the (support here)[http://caniuse.com/#feat=input-range].
+The plugin uses `input[type=range]` for the slide. You can check the [support here](http://caniuse.com/#feat=input-range).
 
 #### Videos
 
