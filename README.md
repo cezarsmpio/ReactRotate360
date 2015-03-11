@@ -64,7 +64,7 @@ Attribute | Type | Use with? | Default | Description
 --- | --- | --- | --- | --- |
 `src` | `array` | video | - | Pass an array with your videos path. The plugin will create the `<source>` tags.
 `type` | `string` | both | video | Use `video` or `image`
-`path` | `string` | image | - | Pass the path of your images.
+`path` | `string` | image | - | Pass the path of your images. The images need follow a sequence. The first image need start with 1. e.g: 1.png, 2.png, 3.png ... 30.png
 `ext` | `string` | image | `jpg` | The extension of your images.
 `total` | `string` or `int` | image | - | Pass the quantity of your images.
 
