@@ -19,7 +19,7 @@ Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
 ## Usage
 
-### Videos
+##### Videos
 
 You can use this plugin with videos (mp4, ogg or webm).
 
@@ -34,7 +34,7 @@ React.render(<Rotate src={sources} />, document.querySelector('#video'));
 ```
 
 
-### Images
+##### Images
 ```
 // Render images
 React.render(<Rotate type="image" path="examples/images" ext="png" total="43" />, document.querySelector('#images'));
