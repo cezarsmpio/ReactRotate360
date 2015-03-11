@@ -17,9 +17,16 @@ gulp dev
 
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
 
+#### Video GIF Demo
+![Video GIF Demo](https://cloud.githubusercontent.com/assets/954889/6597746/620753ee-c7dd-11e4-9817-34163b62f390.gif)
+
+#### Images GIF Demo
+![Image GID Demo](https://cloud.githubusercontent.com/assets/954889/6597759/7b916930-c7dd-11e4-8046-e4f5385123d8.gif)
+
+
 ## Usage
 
-##### Videos
+#### Videos
 
 You can use this plugin with videos (mp4, ogg or webm).
 
@@ -34,7 +41,7 @@ React.render(<Rotate src={sources} />, document.querySelector('#video'));
 ```
 
 
-##### Images
+#### Images
 ```
 // Render images
 React.render(<Rotate type="image" path="examples/images" ext="png" total="43" />, document.querySelector('#images'));
